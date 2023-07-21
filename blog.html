@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QN Dom</title>
+</head>
+<body>
+  <h1>What is DOM and what is the purpose of DOM?</h1>
+  <p>The purpose of the DOM is to provide a way for developers to interact with the content of web pages using code. By representing the document as a tree of objects, developers can access, manipulate, and change the content, structure, and styling of a web page using JavaScript or other programming languages.</p>
+
+  <h1>How will you select HTML elements using DOM? Name the DOM methods.</h1>
+  <p>getElementById() - Selects an element based on its unique ID attribute.
+    Example: document.getElementById("my-element-id")
+    
+    getElementsByTagName() - Selects all elements of a specific tag name.
+    Example: document.getElementsByTagName("p")
+    
+    getElementsByClassName() - Selects all elements with a specific class name.
+    Example: document.getElementsByClassName("my-class-name")
+    
+    querySelector() - Selects the first element that matches a CSS selector.
+    Example: document.querySelector("#my-element-id") or document.querySelector(".my-class-name")
+    
+    querySelectorAll() - Selects all elements that match a CSS selector.
+    Example: document.querySelectorAll("p") or document.querySelectorAll(".my-class-name")
+    
+    parentElement - Selects the parent element of a given element.
+    Example: document.getElementById("my-element-id").parentElement
+    
+    children - Selects all child elements of a given element.
+    Example: document.getElementById("my-element-id").children</p>
+
+    <h1>What is event bubble?</h1>
+    <p>Event bubbling is a mechanism in the Document Object Model (DOM) where an event that is triggered on a child element of an HTML page will "bubble up" through its parent elements until it reaches the root element of the page. During this process, each parent element will have the opportunity to handle the event or perform some action in response to it.</p>
+
+    <h1> What is a callback function and why will you use it?</h1>
+    <p>Callback functions are commonly used in JavaScript for asynchronous programming, where a function needs to wait for an operation to complete before it can continue. For example, if you're making an API request to retrieve some data, you can pass a callback function to the request function that will be executed when the response is received. This allows you to continue executing other code while the API request is being made, and then handle the response once it's available.</p>
+</body>
+</html>
